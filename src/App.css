@@ -1,0 +1,566 @@
+.master {
+  display: flex;
+  background-color: #F7F7F9;
+
+}
+
+
+.dashboard {
+
+  width: 325px;
+  height: 841px;
+  background: #f7f7f9 0% 0% no-repeat padding-box;
+  border: 2px solid #7070701A;
+  border-radius: 10px;
+
+}
+
+.container {
+  margin-left: 40px;
+  width: 1085px;
+  
+  background: #f7f7f9 0% 0% no-repeat padding-box;
+  border: 2px solid #7070701A;
+  border-radius: 10px;
+
+}
+
+.staffattentance {
+
+  width: 250px;
+  height: 220px;
+  background: #f7f7f9 0% 0% no-repeat padding-box;
+  border: 2px solid #7070701A;
+  border-radius: 10px;
+  margin-left: 40px;
+
+
+}
+.staffattentance-heading{
+  padding: 10px;
+}
+
+.innerheader {
+
+  display: flex;
+}
+
+.image {
+
+
+  width: 19px;
+  height: 17px;
+  margin: 20px;
+
+}
+
+.para {
+
+  margin-top: 20px;
+  width: 35px;
+  height: 19px;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #000000;
+
+
+}
+
+.addstaff-btn {
+
+  width: 144px;
+  height: 40px;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #0038FF;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+
+
+}
+
+.button-icon {
+
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.addstaff-btn:active {
+
+  transform: scale(0.95);
+}
+
+.details {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.teacherimage {
+
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+}
+
+.innerdetail {
+  background: #4d4848 0% 0% no-repeat padding-box;
+}
+
+.grid-container {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-card {
+
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.teachername {
+
+  margin: 0 0 0px;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: var(--unnamed-color-000000);
+  text-align: center;
+  font: normal normal normal 16px/20px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+
+}
+
+.status {
+
+  text-align: center;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #AAAAAA;
+}
+
+
+
+.staffdetails {
+ 
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 0px;
+
+
+}
+
+.left-content {
+
+  text-align: left;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #AAAAAA;
+}
+
+.staffdetails-icon {
+
+  width: 15px;
+  height: 12px;
+  margin-right: 5px;
+
+
+}
+
+.right-content {
+
+  width: 42px;
+  height: 14px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: normal normal normal 12px/20px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  text-align: right;
+
+}
+
+
+.profile-card p {
+
+  margin: 5px 0;
+}
+
+.icons {
+
+  margin: 5px;
+}
+
+.edit-icon-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  margin-top: 10px;
+  box-shadow: 0px 1px 2px #00000029;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.edit-icon-button:hover {
+  background-color: blue;
+}
+
+.edit-icon-button:hover .edit-icon-img {
+  filter: brightness(0) invert(1);
+}
+
+.calender-icon-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  margin-top: 10px;
+  box-shadow: 0px 1px 2px #00000029;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.calender-icon-button:hover {
+  background-color: rgb(146, 51, 51);
+}
+
+.calender-icon-button:hover .calender-icon-img {
+  filter: brightness(0) invert(1);
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination-btn {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #00000029;
+}
+
+.pagination-previous-btn {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #00000029;
+
+}
+
+.pagination-next-btn {
+
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #00000029;
+
+}
+
+.pagination-btn.active {
+  background-color: #0038FF;
+  color: white;
+  border-color: #0038FF;
+}
+
+.pagination-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination-btn[disabled] {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+  color: #6c757d;
+}
+
+.status-icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+/* StaffAttendanceCard.css */
+
+.body {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.percentage-container {
+  margin-bottom: 16px;
+}
+
+.percentage {
+  font-size: 36px;
+  font-weight: bold;
+  color:#00B310;
+  padding: 20px;
+  margin-top: 50%;
+  
+}
+.persentage-and-day{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100px;
+}
+
+.bar {
+  width: 10px;
+  background-color: #419236;
+  margin: 0 2px;
+  border-radius: 4px;
+}
+
+.percentage-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.percentage {
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #2ba327;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.staffsttentance-maincontainer{
+  display: block;
+
+}
+.active-inactivestatus{
+  margin-top: 20px;
+  width: 250px;
+  background: #f7f7f9 0% 0% no-repeat padding-box;
+  border: 2px solid #7070701A;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.status-heading{
+  padding: 10px;
+
+}
+
+
+.status-header {
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.status-body {
+  padding: 10px;
+}
+
+.status-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.status-info {
+  display: flex;
+  align-items: center;
+}
+
+.status-info svg {
+  margin-right: 8px;
+}
+
+.status-label {
+  font-size: 14px;
+  color: #555;
+}
+
+.status-count {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+/* Parent Div */
+/* .staffattentance {
+  width: 286px;
+  height: 240px;
+  background: #f7f7f9 0% 0% no-repeat padding-box;
+  border: 2px solid #7070701A;
+  border-radius: 10px;
+  margin-left: 40px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+} */
+
+.staffattentance-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+/* Week Navigation */
+.week-navigation {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.week-navigation button {
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.week-navigation button:hover {
+  background: #e0e0e0;
+}
+
+/* Attendance Percentage */
+#attendance-percent {
+  font-size: 28px;
+  color: green;
+  font-weight: bold;
+ margin-top: auto;
+}
+
+/* Bar Chart */
+
+.bar-chart {
+  display: flex;
+  justify-content: center; /* Center align bars */
+  align-items: flex-end;
+  height: 70px; /* Bar chart height */
+  margin-top: 5px;
+  gap: 6px; /* Reduce the gap between bars */
+}
+.attendance-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Distribute the content horizontally */
+  margin-top: 10px;
+ 
+}
+
+.bar {
+  width: 10px; /* Narrower bars */
+  background-color: green;
+  border-radius: 3px;
+  position: relative;
+  transition: height 0.5s ease-in-out;
+  justify-content: baseline;
+}
+
+.bar span {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: #333;
+}
+
+
+/* Reduce margins and padding */
+.staffattentance hr {
+  margin: 5px 0;
+  border: none;
+  height: 1px;
+  background-color: #7070701A;
+}
+.arrows-nav{
+  width: 10px;
+  height: 10px;
+
+}
+
+
+
+
+/* SETTINGS PAGE CSS BELOW */
+
+.adddept-btn{
+  width: auto;
+  height: 40px;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #0038FF;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.button-icon {
+
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.adddept-btn:active {
+
+  transform: scale(0.95);
+}

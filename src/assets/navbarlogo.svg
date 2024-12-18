@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Ellipse_149" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-890.99 -327.99)">
+    <g transform="matrix(1, 0, 0, 1, 890.99, 327.99)" filter="url(#Ellipse_149)">
+      <circle id="Ellipse_149-2" data-name="Ellipse 149" cx="25" cy="25" r="25" transform="translate(7.5 6.5)" fill="#fff"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(914.794 350.794)">
+      <rect id="Rectangle_651" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(0 0)" fill="#0038ff"/>
+      <rect id="Rectangle_651-2" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(6.522 0)" fill="#0038ff"/>
+      <rect id="Rectangle_651-3" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(13.043 0)" fill="#0038ff"/>
+      <rect id="Rectangle_651-4" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(0 6.522)" fill="#0038ff"/>
+      <rect id="Rectangle_651-5" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(6.522 6.522)" fill="#0038ff"/>
+      <rect id="Rectangle_651-6" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(13.043 6.522)" fill="#f1488f"/>
+      <rect id="Rectangle_651-7" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(0 13.043)" fill="#0038ff"/>
+      <rect id="Rectangle_651-8" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(6.522 13.043)" fill="#f1488f"/>
+      <rect id="Rectangle_651-9" data-name="Rectangle 651" width="4.348" height="4.348" transform="translate(13.043 13.043)" fill="#0038ff"/>
+    </g>
+  </g>
+</svg>
